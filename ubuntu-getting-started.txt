@@ -1,0 +1,21 @@
+# Package list for fresh ubuntu install - Last Updated May 26-2019
+# utilities
+sudo apt-get install vim
+sudo apt-get install tree
+
+# tools
+sudo apt-get install git
+sudo apt-get install wget
+sudo apt-get install curl
+sudo apt-get install net-tools # arp, ifconfig, netstat
+sudo apt-get install apache2
+sudo apt-get install openssh-server
+
+# Language support
+sudo apt-get install gcc
+sudo apt-get install default-jre
+# maven
+sudo apt-get ruby-full
+
+# databases
+sudo apt-get install postgresql postgresql-contrib
