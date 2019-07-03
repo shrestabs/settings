@@ -19,3 +19,8 @@ sudo apt-get ruby-full
 
 # databases
 sudo apt-get install postgresql postgresql-contrib
+
+
+
+- Networking config
+> Block websites with /etc/hosts. Add entry with 127.0.0.1 example_website.com
