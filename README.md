@@ -38,7 +38,11 @@ NERD tree
 Block distracting websites with /etc/hosts. Add entry with 127.0.0.1 example_website.com . 
 
 - Add server's public key to github . 
- Follow steps, [https://wiki.paparazziuav.org/wiki/Github_manual_for_Ubuntu](https://wiki.paparazziuav.org/wiki/Github_manual_for_Ubuntu)
+ Follow steps, [https://wiki.paparazziuav.org/wiki/Github_manual_for_Ubuntu](https://wiki.paparazziuav.org/wiki/Github_manual_for_Ubuntu) . 
+ Note: https url will still ask for password, set 
+ ```
+ git remote set-url origin git@github.com:name/repo
+ ```
 
 
 2. Mac . 
