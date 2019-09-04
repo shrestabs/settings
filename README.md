@@ -4,6 +4,8 @@ Getting started (on new servers) with username notes and preference configration
 1. Linux Servers . 
 - Clone this repo.  
  - copy vimrc and bashrc from repo to ~   
+- create a dir for your code and a repo for third party clones and a bin + lib. 
+ - mkdir ~/code ~/repos ~/bin ~/lib
 - Install below packages in ~/bin (if no sudo access) . 
 ```
 # utilities
@@ -28,11 +30,13 @@ sudo apt-get ruby-full
 sudo apt-get install postgresql postgresql-contrib
 ```
 
-- Install below vim plugins . 
-
+- Install below vim plugins manager vim-plug from https://github.com/junegunn/vim-plug and then the plugins below: 
 ```
-NERD tree
+curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
+    https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 ```
+ 1. NERD tree
+   1. git clone https://github.com/scrooloose/nerdtree.git ~/.vim/bundle/nerdtree 
 
 - Networking config . 
 Block distracting websites with /etc/hosts. Add entry with 127.0.0.1 example_website.com . 
