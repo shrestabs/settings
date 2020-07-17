@@ -55,8 +55,11 @@ Block distracting websites with /etc/hosts. Add entry with 127.0.0.1 example_web
   1. iTerm2 . 
     - Import profiles and settings from exported profile com.googlecode.iterm2.plist in this repo . 
     - Add password to password Manager
-    
+
   2. HapticKey
+  
+  3. brew install tree
+  4. brew install watch  
 
 3. Windows Software List . 
 - Install below software
